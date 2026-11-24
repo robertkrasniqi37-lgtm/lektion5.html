@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VK Studio - Frisörsalong</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .services, .prices {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .service, .price {
+            background: #fff;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            flex: 1 1 calc(33.333% - 20px);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .booking-box {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .booking-box a {
+            display: inline-block;
+            background-color: #444;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .booking-box a:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Välkommen till VK Studio</h1>
+        <p>Din plats för professionell hårvård</p>
+    </header>
+    <nav>
+        <a href="#services">Tjänster</a>
+        <a href="#prices">Priser</a>
+        <a href="#booking">Boka Tid</a>
+    </nav>
+    <section id="services">
+        <h2>Våra Tjänster</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Klippning</h3>
+                <p>Professionell klippning för alla hårtyper.</p>
+            </div>
+            <div class="service">
+                <h3>Färgning</h3>
+                <p>Få den perfekta färgen för ditt hår.</p>
+            </div>
+            <div class="service">
+                <h3>Styling</h3>
+                <p>Elegant styling för speciella tillfällen.</p>
+            </div>
+        </div>
+    </section>
+    <section id="prices">
+        <h2>Priser</h2>
+        <div class="prices">
+            <div class="price">
+                <h3>Klippning</h3>
+                <p>Pris: 400 SEK</p>
+            </div>
+            <div class="price">
+                <h3>Färgning</h3>
+                <p>Pris: 600 SEK</p>
+            </div>
+            <div class="price">
+                <h3>Styling</h3>
+                <p>Pris: 500 SEK</p>
+            </div>
+        </div>
+    </section>
+    <section id="booking">
+        <h2>Boka Tid</h2>
+        <div class="booking-box">
+            <p>Boka din tid enkelt och smidigt via vår bokningstjänst.</p>
+            <a href="https://www.bokadirekt.se" target="_blank">Boka Direkt</a>
+        </div>
+    </section>
+    <footer>
+        <p>© 2026 VK Studio. Alla rättigheter förbehållna.</p>
+    </footer>
+</body>
+</html>
